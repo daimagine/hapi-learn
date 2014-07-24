@@ -31,11 +31,10 @@ p.s : Dont forget to create file logs/hapi-learn.log
 ```bash
 $ cd hapi-learn
 $ touch logs/hapi-lear.log
+```
 
 ### Starting Server:
 Start the server by running the command:
 ```bash
 $ npm start
-```
-
 ```
