@@ -1,0 +1,25 @@
+{
+  "name": "hapi-learn",
+  "version": "0.0.0",
+  "description": "hapi api learning",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp"
+  },
+  "author": "daimagine@gmail.com",
+  "license": "TBD",
+  "dependencies": {
+    "boom": "^2.4.2",
+    "good": "^2.2.0",
+    "hapi": "^6.2.1",
+    "require-directory": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-jshint": "^1.7.1",
+    "gulp-lab": "0.0.10",
+    "gulp-nodemon": "^1.0.4",
+    "lab": "^3.2.1"
+  }
+}
