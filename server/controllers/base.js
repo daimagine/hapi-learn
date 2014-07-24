@@ -7,10 +7,10 @@
 	index: function(request, reply) {
 		reply({
 			statusCode: 200,
-			message: 'Aero Hapi'
+			message: 'Hello, world!'
 		});
 	},
     missing: function(request, reply){
 		reply(Boom.notFound());
     }
- }
+ };

@@ -8,7 +8,7 @@ module.exports = function(server){
 			console: ['request', 'log', 'error'],
 			'logs/aero-hapi.log': ['request', 'log', 'error']
 		}
-	}
+	};
 	
 	server.pack.register([
 		{

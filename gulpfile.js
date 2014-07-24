@@ -11,13 +11,12 @@ gulp.task('lint', function() {
 });
 
 // run test
-gulp.task('test', function() {
+gulp.task('test', ['lint'], function() {
 	gulp.src('./test/**/*.js')
 		.pipe(lab());
 });
 
 // restart the server for changes through nodemon
 gulp.task('default', function() {
-	nodemon({ script: 'server.js', ext: 'html js css' })
-		.on('start', ['test']);
+	nodemon({ script: 'server.js', ext: 'html js css' });
 });

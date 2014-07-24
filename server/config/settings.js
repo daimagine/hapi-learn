@@ -1,7 +1,7 @@
 /**
  * Dependencies
  */
- var path		= require('path');
+ var path		= require('path'),
 	 rootPath	= path.normalize(__dirname + '/../..');
 	 
 // default configuration
@@ -14,4 +14,4 @@ module.exports = {
 	hapi: {
 		//todo
 	}
-}
+};

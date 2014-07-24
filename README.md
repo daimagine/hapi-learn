@@ -30,7 +30,13 @@ $ npm install
 p.s : Dont forget to create file logs/hapi-learn.log
 ```bash
 $ cd hapi-learn
-$ touch logs/hapi-lear.log
+$ touch logs/hapi-learn.log
+```
+
+### Code Test:
+Validate code using Lab:
+```bash
+$ npm test
 ```
 
 ### Starting Server:
